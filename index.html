@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Micah Agada — Graphic & UI Designer</title>
+  <meta name="description" content="Portfolio of Micah Agada, a Graphic & UI Designer focused on visual identities, brand communication, and intuitive digital interfaces." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__container">
+      <a href="#hero" class="nav__logo" aria-label="Micah Agada home">
+        <span class="nav__logo-text">MA</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobile-menu" aria-hidden="true">
+      <ul class="nav__mobile-links" role="list">
+        <li><a href="#about" class="nav__mobile-link">About</a></li>
+        <li><a href="#services" class="nav__mobile-link">Services</a></li>
+        <li><a href="#projects" class="nav__mobile-link">Projects</a></li>
+        <li><a href="#experience" class="nav__mobile-link">Experience</a></li>
+        <li><a href="#contact" class="nav__mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero__container">
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal">Graphic & UI Designer</p>
+          <h1 class="hero__heading reveal" id="hero-heading">
+            Hi, I'm <span class="hero__name">Micah</span><br />
+            I design things<br />
+            <span class="hero__accent">that matter.</span>
+          </h1>
+          <p class="hero__sub reveal">
+            I create impactful visual identities, brand systems, and intuitive digital interfaces
+            that help brands communicate clearly and products deliver better experiences.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+          </div>
+          <div class="hero__tags reveal" aria-label="Specialisations">
+            <span class="tag">Visual Identity</span>
+            <span class="tag">UI Design</span>
+            <span class="tag">Brand Strategy</span>
+            <span class="tag">Content Creation</span>
+          </div>
+        </div>
+        <div class="hero__image-wrap reveal-right">
+          <div class="hero__image-bg" aria-hidden="true"></div>
+          <img
+            src="assets/micah.jpg"
+            alt="Micah Agada — Graphic and UI Designer"
+            class="hero__image"
+            width="420"
+            height="560"
+            loading="eager"
+          />
+          <div class="hero__badge" aria-hidden="true">
+            <span class="hero__badge-text">Available<br/>for Work</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-label reveal">About Me</div>
+        <div class="about__grid">
+          <div class="about__text">
+            <h2 class="section-heading reveal" id="about-heading">
+              Design is how I<br />
+              <em>solve problems</em><br />
+              and tell stories.
+            </h2>
+            <p class="about__body reveal">
+              I'm Micah Agada, a Graphic &amp; UI Designer focused on creating impactful visuals,
+              brand identities, and intuitive digital interfaces. I combine creativity with
+              thoughtful design decisions to help brands communicate clearly and digital products
+              deliver better experiences.
+            </p>
+            <p class="about__body reveal">
+              My work spans graphic design, visual identity, and UI design — with a constant focus
+              on clarity, consistency, and purpose. I believe great design isn't just how things
+              look; it's how they work and what they communicate.
+            </p>
+            <div class="about__stats reveal" role="list" aria-label="Key facts">
+              <div class="stat" role="listitem">
+                <span class="stat__number">4+</span>
+                <span class="stat__label">Projects Delivered</span>
+              </div>
+              <div class="stat" role="listitem">
+                <span class="stat__number">5</span>
+                <span class="stat__label">Design Disciplines</span>
+              </div>
+              <div class="stat" role="listitem">
+                <span class="stat__number">1</span>
+                <span class="stat__label">Brand Volunteered</span>
+              </div>
+            </div>
+          </div>
+          <div class="about__aside reveal-right">
+            <div class="about__info-card">
+              <h3 class="about__info-title">Quick Info</h3>
+              <ul class="about__info-list" role="list">
+                <li class="about__info-item">
+                  <span class="about__info-icon" aria-hidden="true">📍</span>
+                  <span>Jalingo, Taraba State, Nigeria</span>
+                </li>
+                <li class="about__info-item">
+                  <span class="about__info-icon" aria-hidden="true">🎨</span>
+                  <span>Graphic &amp; UI/UX Designer</span>
+                </li>
+                <li class="about__info-item">
+                  <span class="about__info-icon" aria-hidden="true">💼</span>
+                  <span>Open to freelance &amp; full-time</span>
+                </li>
+                <li class="about__info-item">
+                  <span class="about__info-icon" aria-hidden="true">🛠</span>
+                  <span>Figma · Illustrator · Photoshop</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES / WHAT I DO ========== -->
+    <section class="services section section--dark" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-label reveal">What I Do</div>
+        <h2 class="section-heading section-heading--light reveal" id="services-heading">
+          Skills &amp; Services
+        </h2>
+        <p class="services__intro reveal">
+          From brand identity to digital interfaces — I cover the full spectrum of visual design.
+        </p>
+        <div class="services__grid" role="list">
+
+          <div class="service-card reveal" role="listitem">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+                <rect x="6" y="6" width="36" height="36" rx="4" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M14 24h20M14 16h12M14 32h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Graphics Design</h3>
+            <p class="service-card__desc">
+              Creating compelling visuals for print and digital — from posters and banners to
+              social media graphics and marketing materials.
+            </p>
+          </div>
+
+          <div class="service-card reveal" role="listitem">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+                <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M24 12v24M12 24h24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Brand Identity</h3>
+            <p class="service-card__desc">
+              Building cohesive visual identities — logos, colour systems, typography, and brand
+              guidelines that give businesses a consistent and recognisable presence.
+            </p>
+          </div>
+
+          <div class="service-card reveal" role="listitem">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+                <rect x="4" y="8" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M16 36v4M32 36v4M10 40h28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M15 20l5 5 13-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">UI / UX Design</h3>
+            <p class="service-card__desc">
+              Designing intuitive digital interfaces for web and mobile — wireframes, prototypes,
+              and high-fidelity screens in Figma with a focus on usability and experience.
+            </p>
+          </div>
+
+          <div class="service-card reveal" role="listitem">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+                <path d="M8 38V18l16-10 16 10v20l-16 6L8 38z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M8 18l16 10 16-10M24 28v16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Brand Consulting</h3>
+            <p class="service-card__desc">
+              Advising on brand positioning, visual strategy, and communication direction
+              to align design decisions with business objectives.
+            </p>
+          </div>
+
+          <div class="service-card reveal" role="listitem">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+                <rect x="6" y="10" width="36" height="24" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M19 22l6-6 6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 16v16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M12 40h24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Content Creation</h3>
+            <p class="service-card__desc">
+              Producing visual content for brands across digital platforms — crafted to engage
+              audiences and reinforce a clear, consistent brand voice.
+            </p>
+          </div>
+
+          <div class="service-card reveal" role="listitem">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+                <path d="M10 38V14l14-8 14 8v24" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <rect x="18" y="26" width="12" height="12" stroke="currentColor" stroke-width="2.5" rx="1"/>
+                <path d="M24 20a3 3 0 100-6 3 3 0 000 6z" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Project Management</h3>
+            <p class="service-card__desc">
+              Coordinating design projects end-to-end — from brief to delivery, ensuring
+              quality output, clear timelines, and smooth collaboration.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="projects section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-label reveal">Selected Work</div>
+        <h2 class="section-heading reveal" id="projects-heading">Projects</h2>
+        <p class="projects__intro reveal">
+          A selection of UI, brand, and visual design work.
+        </p>
+
+        <div class="projects__grid">
+
+          <!-- Project 1: Sharesat -->
+          <article class="project-card project-card--featured reveal" aria-labelledby="proj1-title">
+            <div class="project-card__visual project-card__visual--sharesat" aria-hidden="true">
+              <div class="project-card__mockup">
+                <div class="mockup-phone">
+                  <div class="mockup-phone__screen">
+                    <div class="mockup-screen__header">
+                      <div class="mockup-dot"></div>
+                      <span>Sharesat</span>
+                    </div>
+                    <div class="mockup-screen__body">
+                      <div class="mockup-tx">
+                        <span class="mockup-tx__icon">₿</span>
+                        <div class="mockup-tx__info">
+                          <span>Send BTC</span>
+                          <span class="mockup-tx__amount">0.0045 BTC</span>
+                        </div>
+                      </div>
+                      <div class="mockup-tx mockup-tx--receive">
+                        <span class="mockup-tx__icon">⟳</span>
+                        <div class="mockup-tx__info">
+                          <span>Received</span>
+                          <span class="mockup-tx__amount">$120.00</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <div class="project-card__meta">
+                <span class="project-tag">UI/UX Design</span>
+                <span class="project-tag">FinTech</span>
+                <span class="project-tag">Mobile App</span>
+              </div>
+              <h3 class="project-card__title" id="proj1-title">Sharesat Application</h3>
+              <p class="project-card__desc">
+                A crypto transaction app that makes sending and receiving digital assets as easy
+                and seamless as chatting on WhatsApp. Focused on simplicity, speed, and trust
+                for everyday crypto users.
+              </p>
+              <div class="project-card__highlights">
+                <div class="highlight">
+                  <span class="highlight__label">Platform</span>
+                  <span class="highlight__value">Mobile (iOS &amp; Android)</span>
+                </div>
+                <div class="highlight">
+                  <span class="highlight__label">Tool</span>
+                  <span class="highlight__value">Figma</span>
+                </div>
+              </div>
+              <a
+                href="https://www.figma.com/design/VH6t4yDfwXnNTOUTF4e01V/sharesat-project?node-id=0-1&t=yiK2d1axeAK8Vbx0-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn--primary"
+                aria-label="View Sharesat project on Figma"
+              >
+                View on Figma
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Momentum -->
+          <article class="project-card project-card--featured reveal" aria-labelledby="proj2-title">
+            <div class="project-card__visual project-card__visual--momentum" aria-hidden="true">
+              <div class="project-card__mockup">
+                <div class="mockup-browser">
+                  <div class="mockup-browser__bar">
+                    <div class="mockup-dot"></div>
+                    <div class="mockup-dot"></div>
+                    <div class="mockup-dot"></div>
+                    <span class="mockup-url">momentum.app</span>
+                  </div>
+                  <div class="mockup-browser__body">
+                    <div class="momentum-ui">
+                      <div class="momentum-event-card">
+                        <span class="momentum-event-card__date">Oct 20</span>
+                        <span class="momentum-event-card__name">Tech Summit</span>
+                        <span class="momentum-event-card__people">12 attendees connected</span>
+                      </div>
+                      <div class="momentum-event-card momentum-event-card--dim">
+                        <span class="momentum-event-card__date">Nov 02</span>
+                        <span class="momentum-event-card__name">Design Week</span>
+                        <span class="momentum-event-card__people">8 attendees connected</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <div class="project-card__meta">
+                <span class="project-tag">UI/UX Design</span>
+                <span class="project-tag">Social Platform</span>
+                <span class="project-tag">Web App</span>
+              </div>
+              <h3 class="project-card__title" id="proj2-title">Momentum Platform</h3>
+              <p class="project-card__desc">
+                A networking platform that lets event attendees connect with each other even
+                before the event day. Built to remove the awkwardness of cold intros and
+                turn every event into a warm community experience.
+              </p>
+              <div class="project-card__highlights">
+                <div class="highlight">
+                  <span class="highlight__label">Platform</span>
+                  <span class="highlight__value">Web Application</span>
+                </div>
+                <div class="highlight">
+                  <span class="highlight__label">Tool</span>
+                  <span class="highlight__value">Figma</span>
+                </div>
+              </div>
+              <a
+                href="https://www.figma.com/design/2PZEbL9EhXy1DDiWXJX9yr/Momentum?node-id=438-54&t=kKQC2JNN46VFcCrK-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn--primary"
+                aria-label="View Momentum project on Figma"
+              >
+                View on Figma
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Northstar carousel -->
+          <article class="project-card reveal" aria-labelledby="proj3-title">
+            <div class="project-card__visual project-card__visual--northstar" aria-hidden="true">
+              <div class="project-card__mockup">
+                <div class="mockup-carousel">
+                  <div class="mockup-carousel__slide mockup-carousel__slide--active">
+                    <span>★</span>
+                    <span>Northstar</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <div class="project-card__meta">
+                <span class="project-tag">Graphic Design</span>
+                <span class="project-tag">Visual Content</span>
+              </div>
+              <h3 class="project-card__title" id="proj3-title">Northstar Carousel</h3>
+              <p class="project-card__desc">
+                A visual carousel design project for Northstar — crafted for social media
+                engagement with strong graphic composition, consistent typography, and
+                a clear visual narrative across slides.
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1RyCMN3zBg_HGqLtujz356DIIgwIbl3q7?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn--outline"
+                aria-label="View Northstar Carousel on Google Drive"
+              >
+                View Project
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Tuntac brand guideline -->
+          <article class="project-card reveal" aria-labelledby="proj4-title">
+            <div class="project-card__visual project-card__visual--tuntac" aria-hidden="true">
+              <div class="project-card__mockup">
+                <div class="mockup-brand">
+                  <div class="mockup-brand__logo">T</div>
+                  <div class="mockup-brand__palette">
+                    <span class="swatch swatch--1"></span>
+                    <span class="swatch swatch--2"></span>
+                    <span class="swatch swatch--3"></span>
+                  </div>
+                  <span class="mockup-brand__label">TUNTAC</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <div class="project-card__meta">
+                <span class="project-tag">Brand Identity</span>
+                <span class="project-tag">Guidelines</span>
+              </div>
+              <h3 class="project-card__title" id="proj4-title">Tuntac Brand Guideline</h3>
+              <p class="project-card__desc">
+                A comprehensive brand guideline for Tuntac — defining logo usage, colour
+                palette, typography, tone of voice, and visual standards to ensure consistency
+                across all brand touchpoints.
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1rxMGz-g6muFmkySWtY0OhWSC7MIHfpUT?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn--outline"
+                aria-label="View Tuntac Brand Guideline on Google Drive"
+              >
+                View Project
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section class="experience section section--tinted" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-label reveal">Experience</div>
+        <h2 class="section-heading reveal" id="experience-heading">Work History</h2>
+
+        <div class="timeline">
+
+          <div class="timeline__item reveal" role="article" aria-labelledby="exp1-title">
+            <div class="timeline__marker" aria-hidden="true">
+              <div class="timeline__dot"></div>
+              <div class="timeline__line"></div>
+            </div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role" id="exp1-title">Volunteer Designer</h3>
+                  <p class="timeline__company">Sandlip</p>
+                </div>
+                <span class="timeline__badge">Volunteer</span>
+              </div>
+              <p class="timeline__desc">
+                Contributed as a volunteer graphic and UI designer, supporting the visual identity
+                and digital design needs of Sandlip. Responsible for producing design assets,
+                maintaining brand consistency, and collaborating on creative direction for
+                communications and digital platforms.
+              </p>
+              <div class="timeline__skills" aria-label="Skills used">
+                <span class="skill-tag">Graphic Design</span>
+                <span class="skill-tag">Brand Identity</span>
+                <span class="skill-tag">Visual Communication</span>
+                <span class="skill-tag">Figma</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Tools & Skills strip -->
+        <div class="tools reveal">
+          <h3 class="tools__title">Tools &amp; Technologies</h3>
+          <div class="tools__grid" role="list" aria-label="Design tools">
+            <div class="tool-item" role="listitem">
+              <span class="tool-item__icon" aria-hidden="true">🎨</span>
+              <span>Figma</span>
+            </div>
+            <div class="tool-item" role="listitem">
+              <span class="tool-item__icon" aria-hidden="true">🖌</span>
+              <span>Adobe Illustrator</span>
+            </div>
+            <div class="tool-item" role="listitem">
+              <span class="tool-item__icon" aria-hidden="true">📷</span>
+              <span>Adobe Photoshop</span>
+            </div>
+            <div class="tool-item" role="listitem">
+              <span class="tool-item__icon" aria-hidden="true">📐</span>
+              <span>Adobe XD</span>
+            </div>
+            <div class="tool-item" role="listitem">
+              <span class="tool-item__icon" aria-hidden="true">📋</span>
+              <span>Notion</span>
+            </div>
+            <div class="tool-item" role="listitem">
+              <span class="tool-item__icon" aria-hidden="true">🗂</span>
+              <span>Trello</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__text">
+            <div class="section-label reveal">Get in Touch</div>
+            <h2 class="section-heading reveal" id="contact-heading">
+              Let's work<br />
+              <em>together.</em>
+            </h2>
+            <p class="contact__body reveal">
+              Got a project in mind? Looking for a designer who cares about the details?
+              I'd love to hear about it.
+            </p>
+            <ul class="contact__details reveal" role="list" aria-label="Contact details">
+              <li class="contact__detail">
+                <span class="contact__detail-icon" aria-hidden="true">✉️</span>
+                <a href="mailto:micahagada8@gmail.com" class="contact__link">
+                  micahagada8@gmail.com
+                </a>
+              </li>
+              <li class="contact__detail">
+                <span class="contact__detail-icon" aria-hidden="true">📞</span>
+                <a href="tel:+2348148606250" class="contact__link">
+                  +234 814 860 6250
+                </a>
+              </li>
+              <li class="contact__detail">
+                <span class="contact__detail-icon" aria-hidden="true">📍</span>
+                <span>Jalingo, Taraba State, Nigeria</span>
+              </li>
+            </ul>
+          </div>
+          <div class="contact__form-wrap reveal-right">
+            <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  placeholder="Jane Smith"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="jane@example.com"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-input"
+                  placeholder="Project inquiry"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-input form-input--textarea"
+                  placeholder="Tell me about your project..."
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full" aria-label="Send message">
+                Send Message
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <p class="form-notice" id="form-notice" role="alert" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">MA</span>
+          <p class="footer__tagline">Graphic &amp; UI Designer</p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="#about" class="footer__link">About</a>
+          <a href="#services" class="footer__link">Services</a>
+          <a href="#projects" class="footer__link">Projects</a>
+          <a href="#contact" class="footer__link">Contact</a>
+        </nav>
+        <p class="footer__copy">
+          &copy; <span id="year"></span> Micah Agada. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
